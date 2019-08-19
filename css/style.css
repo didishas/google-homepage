@@ -137,7 +137,8 @@ img.micro{
     vertical-align: middle;
 }
 
-.section-btn {
+.section-btn,
+.section-btn:visited {
     height: 36px;
     line-height: 27px;
     background-color: #f2f2f2;
@@ -163,6 +164,7 @@ img.micro{
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     color: #222;
+    outline: none;
 }
 
 /* Section Languages Offered*/
