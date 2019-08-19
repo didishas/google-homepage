@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
+
+html,body {
     font-family: arial,sans-serif;
     /* position: relative; */
+    height: 100vh;
 }
 
 body a {
@@ -25,6 +27,8 @@ body a {
 .homepage-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 header {
